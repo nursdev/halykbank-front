@@ -14,7 +14,7 @@ body {
 .nav__list {
     background-color: #F3F3F3;
     min-height: 100%;
-    max-width: 50%;
+    width: 375px;
     padding: 40px;
     position: fixed;
     left: 0;
@@ -29,10 +29,14 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
+
+/* .list__item img:first-of-type {
+    width: 180px;
+} */
 
 
 .profile {
@@ -131,4 +135,27 @@ body {
 
 table {
     border: 1px solid #ccc;
+
+}
+.field_item {
+    display: flex;
+}
+
+.content .content__wrapper h4:first-child{
+    padding-top: 24px; 
+}
+
+.content .content__wrapper .field_item .rect{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.content{
+    width: 592px;
+}
+.content__wrapper{
+    padding-left: 32px;
+}
+.field_item2{ 
+    display: flex;
 }
